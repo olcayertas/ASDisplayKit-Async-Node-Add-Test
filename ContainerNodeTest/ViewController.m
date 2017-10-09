@@ -11,18 +11,16 @@
 
 
 @implementation ViewController {
-    NSMutableArray *children;
     ASDisplayNode * contentNode;
 }
 
 
 - (instancetype)init {
 
-    children = [NSMutableArray new];
     contentNode = [[ASDisplayNode alloc] init];
     contentNode.layoutSpecBlock = ^ASLayoutSpec *(__kindof ASDisplayNode *node, ASSizeRange constrainedSize) {
         ASStackLayoutSpec *sls = [ASStackLayoutSpec verticalStackLayoutSpec];
-        sls.children = children;
+        sls.children = node.subnodes;
         return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(20, 0, 0, 0) child:sls];
     };
 
@@ -31,7 +29,6 @@
     if (self) {
         InstagramCardView *instagramCardView = [[InstagramCardView alloc] initWithPostId:@"BZ1NQxmB_5x"];
         [contentNode addSubnode:instagramCardView];
-        [children addObject:instagramCardView];
     }
 
     return self;
