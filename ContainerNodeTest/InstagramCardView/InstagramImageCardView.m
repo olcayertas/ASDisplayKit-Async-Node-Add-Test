@@ -101,12 +101,6 @@
     ASInsetLayoutSpec *ownerImageInsetLS = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(8, 0, 8, 8) child:ownerImageNode];
     ASInsetLayoutSpec *instagramLogoInsetLS = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(0, 14, 0, 14) child:instagramLogoNode];
 
-    ASRelativeLayoutSpec *ownerImageRls = [ASRelativeLayoutSpec
-            relativePositionLayoutSpecWithHorizontalPosition:ASRelativeLayoutSpecPositionStart
-                                            verticalPosition:ASRelativeLayoutSpecPositionStart
-                                                sizingOption:ASRelativeLayoutSpecSizingOptionDefault
-                                                       child:ownerImageInsetLS];
-
     ASCenterLayoutSpec *centerLayoutSpec =
             [ASCenterLayoutSpec centerLayoutSpecWithCenteringOptions:ASCenterLayoutSpecCenteringY
                                                        sizingOptions:ASCenterLayoutSpecSizingOptionDefault
@@ -114,14 +108,8 @@
     ASLayoutSpec *spacer = [[ASLayoutSpec alloc] init];
     spacer.style.flexGrow = 1;
 
-    ASRelativeLayoutSpec *instagramLogoRls = [ASRelativeLayoutSpec
-            relativePositionLayoutSpecWithHorizontalPosition:ASRelativeLayoutSpecPositionEnd
-                                            verticalPosition:ASRelativeLayoutSpecPositionCenter
-                                                sizingOption:ASRelativeLayoutSpecSizingOptionDefault
-                                                       child:instagramLogoInsetLS];
-
     ASStackLayoutSpec *topHorizontalLS = [ASStackLayoutSpec horizontalStackLayoutSpec];
-    topHorizontalLS.children = @[ownerImageRls, centerLayoutSpec, spacer, instagramLogoRls];
+    topHorizontalLS.children = @[ownerImageInsetLS, centerLayoutSpec, spacer, instagramLogoInsetLS];
     topHorizontalLS.style.minWidth = ASDimensionMake(constrainedSize.max.width);
 
     ASRatioLayoutSpec *postPhotoRatioLS = [ASRatioLayoutSpec ratioLayoutSpecWithRatio:1 child:postPhotoNode];
