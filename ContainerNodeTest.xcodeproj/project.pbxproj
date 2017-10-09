@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8446E5B1A4F1F9EF9450823C /* InstagramPostDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446E31B396ADD91D3C5E4C5 /* InstagramPostDto.m */; };
+		8446E73B39B14D7AA7B09E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8446E6E1B84A91C98650D926 /* LaunchScreen.storyboard */; };
+		8446E7929E178D54C31BF755 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446E97469258C7CD44989BA /* ViewController.m */; };
+		8446E841128DD837235A1FCE /* InstagramImageCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446EAB12CB20AC8C4FAE0B3 /* InstagramImageCardView.m */; };
+		8446E9863E2148C577129FB4 /* CaptionWrapperDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446E690D2A8059D81946A2F /* CaptionWrapperDto.m */; };
+		8446EA47D7E1772A9BEB36D1 /* EdgeNodeDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446E72F989D3BE03B6DD2FD /* EdgeNodeDto.m */; };
+		8446EB6130C7DA6E246D3EC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446E0D64D3BA2D7B9512FD5 /* AppDelegate.m */; };
+		8446EB9BB34CC4189AD998BA /* InstagramCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446E0908FDBB9ECD36E687E /* InstagramCardView.m */; };
+		8446EBA2AB5A82B552F75906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446E3E389007877B72ECD83 /* main.m */; };
+		8446ED22865E2BB525D28390 /* InstagramVideoCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446E512F96A1E73640A138D /* InstagramVideoCardView.m */; };
+		8446EE98D8EB0E32F8FBC0BF /* EdgeNodeWrapperDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446E8F8EB4F12BCACCF9A1B /* EdgeNodeWrapperDto.m */; };
+		8446EEA41A25199D2A7C9D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8446EF3C0AF6DCA62629C4E8 /* Assets.xcassets */; };
+		8446EF539D7B08B87B2F7239 /* CaptionDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446E62D44BAC55DAEA25B08 /* CaptionDto.m */; };
+		8836A84EB3E1995B9AD3EE3E /* libPods-ContainerNodeTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03040C100501A8FD7FBA412C /* libPods-ContainerNodeTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03040C100501A8FD7FBA412C /* libPods-ContainerNodeTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContainerNodeTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E033ADDCCE4C228AF2BFA6C /* Pods-ContainerNodeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContainerNodeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContainerNodeTest/Pods-ContainerNodeTest.release.xcconfig"; sourceTree = "<group>"; };
+		7E1340FDB06738F15968BD0F /* Pods-ContainerNodeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContainerNodeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContainerNodeTest/Pods-ContainerNodeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		8446E01AAB2F3CF5C41806B8 /* EdgeNodeDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeNodeDto.h; sourceTree = "<group>"; };
+		8446E0908FDBB9ECD36E687E /* InstagramCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramCardView.m; sourceTree = "<group>"; };
+		8446E0D64D3BA2D7B9512FD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8446E2155B0B603310B0D375 /* InstagramVideoCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramVideoCardView.h; sourceTree = "<group>"; };
+		8446E2E035830D6E05164227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		8446E31B396ADD91D3C5E4C5 /* InstagramPostDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramPostDto.m; sourceTree = "<group>"; };
+		8446E349996B177497C57014 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8446E3E389007877B72ECD83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8446E512F96A1E73640A138D /* InstagramVideoCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramVideoCardView.m; sourceTree = "<group>"; };
+		8446E51A80CC76B3AB185736 /* CaptionWrapperDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptionWrapperDto.h; sourceTree = "<group>"; };
+		8446E62D44BAC55DAEA25B08 /* CaptionDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptionDto.m; sourceTree = "<group>"; };
+		8446E690D2A8059D81946A2F /* CaptionWrapperDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptionWrapperDto.m; sourceTree = "<group>"; };
+		8446E72201DB339F58C30CE3 /* EdgeNodeWrapperDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeNodeWrapperDto.h; sourceTree = "<group>"; };
+		8446E72F989D3BE03B6DD2FD /* EdgeNodeDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeNodeDto.m; sourceTree = "<group>"; };
+		8446E7D4CAE46EA22AEC2C8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8446E8F8EB4F12BCACCF9A1B /* EdgeNodeWrapperDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeNodeWrapperDto.m; sourceTree = "<group>"; };
+		8446E9288DD15687BCB768C5 /* InstagramPostDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramPostDto.h; sourceTree = "<group>"; };
+		8446E97469258C7CD44989BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8446EAB12CB20AC8C4FAE0B3 /* InstagramImageCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramImageCardView.m; sourceTree = "<group>"; };
+		8446EBBED4C8B76404F8E392 /* CaptionDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptionDto.h; sourceTree = "<group>"; };
+		8446EBE96AB6493E3473B685 /* InstagramCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramCardView.h; sourceTree = "<group>"; };
+		8446EC82FE03AE8D7131B290 /* ContainerNodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerNodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8446ED53FCB5B758AF5D6DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8446EEECEB95540254E8D1FC /* InstagramImageCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramImageCardView.h; sourceTree = "<group>"; };
+		8446EF3C0AF6DCA62629C4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8446E79BCB5320B9ACE57599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8836A84EB3E1995B9AD3EE3E /* libPods-ContainerNodeTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C26DACE79DE680A21D774CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E1340FDB06738F15968BD0F /* Pods-ContainerNodeTest.debug.xcconfig */,
+				0E033ADDCCE4C228AF2BFA6C /* Pods-ContainerNodeTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8446E7A09004C8C45F002BF5 /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+				8446EBBED4C8B76404F8E392 /* CaptionDto.h */,
+				8446E62D44BAC55DAEA25B08 /* CaptionDto.m */,
+				8446E51A80CC76B3AB185736 /* CaptionWrapperDto.h */,
+				8446E690D2A8059D81946A2F /* CaptionWrapperDto.m */,
+				8446E01AAB2F3CF5C41806B8 /* EdgeNodeDto.h */,
+				8446E72F989D3BE03B6DD2FD /* EdgeNodeDto.m */,
+				8446E72201DB339F58C30CE3 /* EdgeNodeWrapperDto.h */,
+				8446E8F8EB4F12BCACCF9A1B /* EdgeNodeWrapperDto.m */,
+				8446E9288DD15687BCB768C5 /* InstagramPostDto.h */,
+				8446E31B396ADD91D3C5E4C5 /* InstagramPostDto.m */,
+			);
+			path = Dto;
+			sourceTree = "<group>";
+		};
+		8446E8B1353F59A60527FD37 /* ContainerNodeTest */ = {
+			isa = PBXGroup;
+			children = (
+				8446E2E035830D6E05164227 /* Info.plist */,
+				8446EF3C0AF6DCA62629C4E8 /* Assets.xcassets */,
+				8446E6E1B84A91C98650D926 /* LaunchScreen.storyboard */,
+				8446E3E389007877B72ECD83 /* main.m */,
+				8446E349996B177497C57014 /* AppDelegate.h */,
+				8446E0D64D3BA2D7B9512FD5 /* AppDelegate.m */,
+				8446E7D4CAE46EA22AEC2C8E /* ViewController.h */,
+				8446E97469258C7CD44989BA /* ViewController.m */,
+				8446EF5252B552F5376A10DB /* InstagramCardView */,
+				8446E7A09004C8C45F002BF5 /* Dto */,
+			);
+			path = ContainerNodeTest;
+			sourceTree = "<group>";
+		};
+		8446EE71EF6D708E8C742B6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8446EC82FE03AE8D7131B290 /* ContainerNodeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8446EE86B5F228E47CD891C6 = {
+			isa = PBXGroup;
+			children = (
+				8446EE71EF6D708E8C742B6B /* Products */,
+				8446E8B1353F59A60527FD37 /* ContainerNodeTest */,
+				1C26DACE79DE680A21D774CB /* Pods */,
+				A790B8E9A1C736D9C96422A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8446EF5252B552F5376A10DB /* InstagramCardView */ = {
+			isa = PBXGroup;
+			children = (
+				8446EBE96AB6493E3473B685 /* InstagramCardView.h */,
+				8446E0908FDBB9ECD36E687E /* InstagramCardView.m */,
+				8446EEECEB95540254E8D1FC /* InstagramImageCardView.h */,
+				8446EAB12CB20AC8C4FAE0B3 /* InstagramImageCardView.m */,
+				8446E2155B0B603310B0D375 /* InstagramVideoCardView.h */,
+				8446E512F96A1E73640A138D /* InstagramVideoCardView.m */,
+			);
+			path = InstagramCardView;
+			sourceTree = "<group>";
+		};
+		A790B8E9A1C736D9C96422A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03040C100501A8FD7FBA412C /* libPods-ContainerNodeTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8446E114AE7284F1BCA47B56 /* ContainerNodeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8446E38F88EAACB61EC09715 /* Build configuration list for PBXNativeTarget "ContainerNodeTest" */;
+			buildPhases = (
+				2873FA0E8301571661BEAD9F /* [CP] Check Pods Manifest.lock */,
+				8446EFB01A5CDF539247A7BD /* Sources */,
+				8446E79BCB5320B9ACE57599 /* Frameworks */,
+				8446EFBC5D2BEAEBDD5A1321 /* Resources */,
+				586062ACC3E21D1ED59644E0 /* [CP] Embed Pods Frameworks */,
+				A04CFA43EA81091DE430CFF2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContainerNodeTest;
+			productName = ContainerNodeTest;
+			productReference = 8446EC82FE03AE8D7131B290 /* ContainerNodeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8446E3362B47780D66C0AF01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Piri Medya";
+				TargetAttributes = {
+					8446E114AE7284F1BCA47B56 = {
+						DevelopmentTeam = 54JKF96897;
+					};
+				};
+			};
+			buildConfigurationList = 8446E4E33DB51FDF53898C82 /* Build configuration list for PBXProject "ContainerNodeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8446EE86B5F228E47CD891C6;
+			productRefGroup = 8446EE71EF6D708E8C742B6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8446E114AE7284F1BCA47B56 /* ContainerNodeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8446EFBC5D2BEAEBDD5A1321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8446EEA41A25199D2A7C9D7F /* Assets.xcassets in Resources */,
+				8446E73B39B14D7AA7B09E81 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2873FA0E8301571661BEAD9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContainerNodeTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		586062ACC3E21D1ED59644E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContainerNodeTest/Pods-ContainerNodeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A04CFA43EA81091DE430CFF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContainerNodeTest/Pods-ContainerNodeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8446EFB01A5CDF539247A7BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8446EBA2AB5A82B552F75906 /* main.m in Sources */,
+				8446EB6130C7DA6E246D3EC3 /* AppDelegate.m in Sources */,
+				8446E7929E178D54C31BF755 /* ViewController.m in Sources */,
+				8446EB9BB34CC4189AD998BA /* InstagramCardView.m in Sources */,
+				8446E841128DD837235A1FCE /* InstagramImageCardView.m in Sources */,
+				8446ED22865E2BB525D28390 /* InstagramVideoCardView.m in Sources */,
+				8446EF539D7B08B87B2F7239 /* CaptionDto.m in Sources */,
+				8446E9863E2148C577129FB4 /* CaptionWrapperDto.m in Sources */,
+				8446EA47D7E1772A9BEB36D1 /* EdgeNodeDto.m in Sources */,
+				8446EE98D8EB0E32F8FBC0BF /* EdgeNodeWrapperDto.m in Sources */,
+				8446E5B1A4F1F9EF9450823C /* InstagramPostDto.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8446E6E1B84A91C98650D926 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8446ED53FCB5B758AF5D6DF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8446E3EC23D2132B4D2B92AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8446E3FD0DC663508987233D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1340FDB06738F15968BD0F /* Pods-ContainerNodeTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54JKF96897;
+				INFOPLIST_FILE = ContainerNodeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pirimedya.ContainerNodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+		8446E485DED8F7DF428D54EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E033ADDCCE4C228AF2BFA6C /* Pods-ContainerNodeTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54JKF96897;
+				INFOPLIST_FILE = ContainerNodeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pirimedya.ContainerNodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+		8446EF237250F04629F60D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8446E38F88EAACB61EC09715 /* Build configuration list for PBXNativeTarget "ContainerNodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8446E3FD0DC663508987233D /* Debug */,
+				8446E485DED8F7DF428D54EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8446E4E33DB51FDF53898C82 /* Build configuration list for PBXProject "ContainerNodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8446EF237250F04629F60D87 /* Debug */,
+				8446E3EC23D2132B4D2B92AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8446E3362B47780D66C0AF01 /* Project object */;
+}
