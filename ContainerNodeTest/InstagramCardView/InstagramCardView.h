@@ -12,8 +12,4 @@
 
 - (instancetype)initWithPostId:(NSString *)postId;
 
-- (instancetype)initWithParent:(ASDisplayNode *)parent;
-
-- (void)getPostData:(NSString *)postId;
-
 @end

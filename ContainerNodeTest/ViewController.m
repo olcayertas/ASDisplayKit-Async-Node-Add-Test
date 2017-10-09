@@ -10,10 +10,6 @@
 #import "InstagramCardView.h"
 
 
-@interface ViewController ()
-
-@end
-
 @implementation ViewController {
     NSMutableArray *children;
     ASDisplayNode * contentNode;
@@ -40,9 +36,6 @@
 
     return self;
 }
-
-
-
 
 
 @end

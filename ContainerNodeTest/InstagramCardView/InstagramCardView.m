@@ -17,7 +17,6 @@
 @implementation InstagramCardView {
     InstagramPostDto *mPostData;
     NSMutableArray *children;
-    ASDisplayNode *mParent;
 }
 
 
@@ -29,20 +28,6 @@
         children = [NSMutableArray new];
         mPostData = postData;
         [self instagramCardCommonInit];
-    }
-
-    return self;
-}
-
-
-- (instancetype)initWithParent:(ASDisplayNode *)parent {
-
-    NSLog(@"InstagramCardView : initWithParent");
-    self = [super init];
-
-    if (self) {
-        children = [NSMutableArray new];
-        mParent = parent;
     }
 
     return self;

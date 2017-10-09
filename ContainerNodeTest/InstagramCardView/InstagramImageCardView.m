@@ -121,7 +121,6 @@
                                                        child:instagramLogoInsetLS];
 
     ASStackLayoutSpec *topHorizontalLS = [ASStackLayoutSpec horizontalStackLayoutSpec];
-    //topHorizontalLS.children = @[ownerImageInsetLS, centerLayoutSpec, instagramLogoInsetLS];
     topHorizontalLS.children = @[ownerImageRls, centerLayoutSpec, spacer, instagramLogoRls];
     topHorizontalLS.style.minWidth = ASDimensionMake(constrainedSize.max.width);
 
